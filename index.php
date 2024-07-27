@@ -6,7 +6,7 @@ $update   = file_get_contents('php://input');
 $update   = json_decode($update, true);
 $e        = print_r($update); //
 #EMPIEZA LA CAPTURA DE VARIABLES ENVIADOS AL CHAT
-$My_ID           = "1887258668";
+$My_ID           = "1714346876";
 $chatname        = $update["message"]["chat"]["title"]; 
 $newusername     = $update["message"]["new_chat_member"]["username"];
 $newgId          = $update["message"]["new_chat_member"]["id"];
